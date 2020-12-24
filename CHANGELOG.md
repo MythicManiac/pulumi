@@ -2,7 +2,8 @@ CHANGELOG
 =========
 
 ## HEAD (Unreleased)
-_(none)_
+- Python Automation API.
+  [#5979](https://github.com/pulumi/pulumi/pull/5979)
 
 ## 2.16.2 (2020-12-23)
 

@@ -78,7 +78,7 @@ export class LocalWorkspace implements Workspace {
      * This is a way to create drivers on top of pre-existing Pulumi programs. This Workspace will pick up
      * any available Settings files (Pulumi.yaml, Pulumi.<stack>.yaml).
      *
-     * @param args A set of arguments to intialize a Stack with a pre-configured Pulumi CLI program that already exists on disk.
+     * @param args A set of arguments to initialize a Stack with a pre-configured Pulumi CLI program that already exists on disk.
      * @param opts Additional customizations to be applied to the Workspace.
      */
     static async createStack(args: LocalProgramArgs, opts?: LocalWorkspaceOptions): Promise<Stack>;
@@ -88,7 +88,7 @@ export class LocalWorkspace implements Workspace {
      * will be created on behalf of the user. Similarly, unless a `workDir` option is specified, the working directory
      * will default to a new temporary directory provided by the OS.
      *
-     * @param args A set of arguments to intialize a Stack with and inline `PulumiFn` program that runs in process.
+     * @param args A set of arguments to initialize a Stack with and inline `PulumiFn` program that runs in process.
      * @param opts Additional customizations to be applied to the Workspace.
      */
     static async createStack(args: InlineProgramArgs, opts?: LocalWorkspaceOptions): Promise<Stack>;
